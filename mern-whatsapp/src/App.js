@@ -1,9 +1,16 @@
 import './App.css';
+import Chat from './Chat';
+import Sidebar from './Sidebar';
+
+// import components
 
 function App() {
   return (
     <div className="app">
-      <h1>Let's Build a Whatsapp Clone</h1>
+      <div className="app_body">
+        <Sidebar />
+        <Chat />
+      </div>
     </div>
   );
 }
