@@ -1,5 +1,28 @@
+/* contains the 35% of the screen */
 .sidebar { 
     display: flex;
     flex-direction: column;
-    flex: 0.30;
+    flex: 0.35;
+}
+
+/* styling for the header */
+.sidebar_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+
+/* styling for the right portion of the header */
+.sidebar_headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+/* styling for the icon */
+.sidebar_headerRight > .MuiSvgIcon-root {
+    margin-right: 2vw;
+    font-size: 24px !important;
 }
